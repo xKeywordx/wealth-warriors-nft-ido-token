@@ -1,0 +1,3 @@
+SEPOLIA_RPC_URL= // put your RPC URL here. I used a Chainstack node.
+PRIVATE_KEY= // input wallet private key here and prepend it with 0x
+ETHERSCAN_API_KEY= // sign up to Etherscan, and get an API key for automatic contract verification during deployment.

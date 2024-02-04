@@ -1,0 +1,11 @@
+{
+  "name": "Achilles",
+  "description": "Achilles is a legendary figure from Greek mythology, best known for his role in Homer's epic poem, `The Iliad.` He is portrayed as one of the greatest warriors in the Trojan War",
+  "image": "https://pink-suitable-platypus-128.mypinata.cloud/ipfs/QmTXVV9ZpMYU4XzDLD4eauBgQdwfThyAKWunfZFo9sEgBo",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Very Rare"
+    }
+  ]
+}
