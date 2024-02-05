@@ -125,3 +125,12 @@ A demo ERC20 token, that checks the amounts invested by users during the IDO pha
 - Has a `setTaxAddress` function that allows the owner to change the tax address (the address that collects transfer fees).
 
 - Has a `distributeTokens` function that will check the amounts invested by each user during the IDO phase inside the `DemoIdo.s.sol` contract and then calculate how many tokens each user should get, before transferring them out.
+
+## Put it to the test
+
+- Clone the repo.
+- You will need to create a new Chainlink VRF subscription and replace my placeholder subscription number with yours in the `WealthWarriors` deploy script.
+- Before deploying the `DemoIdo.s.sol` contract, you will need to get the contract address of the `WealthWarriors.s.sol` contract that you recently deployed and put that into the deploy script of DemoIdo.
+- Before deploying the `ToTheMoonToken.s.sol` contract, you will need to get the contract address of the `DemoIdo.s.sol` contract that you recently deployed and put that into the deploy script of ToTheMoonToken.
+- Now, you should be able to mint an NFT in the first contract, check your allocation inside the IDO, whitelist yourself and participate in the IDO, and then you can distribute TTM tokens to the address that participated in the IDO.
+
