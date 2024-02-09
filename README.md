@@ -2,7 +2,7 @@
 
 # Repository Overview
 
-This repository contains three main contracts: an NFT Collection named Wealth Warriors, a Demo IDO (Initial DEX Offering), and a dummy ERC20 Token. Each contract serves a distinct purpose, leveraging various standards and technologies.
+This repository contains three main contracts: an NFT Collection named Wealth Warriors, a Demo IDO (Initial DEX Offering) contract, and a dummy ERC20 Token. Each contract serves a distinct purpose, leveraging various standards and technologies.
 
 In brief, the NFT collection is the main contract and the core of the ecosystem. By owning an NFT from the WealthWarriors collection, a user is eligible to participate in IDOs. A user's allocation will be calculated based on the number of NFTs that he holds and based on the rarity of each NFT. The rarer the NFT, the bigger the allocation in IDOs.
 
