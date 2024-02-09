@@ -14,7 +14,7 @@ I am also using 2 interfaces in order to tie things together.
 
 ## Contracts Overview
 
-### 1. `WealthWarriors.s.sol`- The NFT Collection
+### 1. `WealthWarriors.sol`- The NFT Collection
 
 Wealth Warriors is an NFT collection that incorporates several key features and standards to create a smooth minting experience. The collection is capped at 3000 tokens supply, with 4 categories of NFT rarities.
 Achilles - very rare, 150 tokens/ Alexander The Great - rare, 450 tokens / Hannibal - uncommon - 900 tokens/ Leonidas - common - 1500 tokens.
@@ -62,7 +62,7 @@ Below are the details of its implementation.
 
 - I didn't want to import all the code of the original contract because using an interface is more gas efficient, improves modularity, and interoperability for future developments
 
-### 3. `DemoIdo.s.sol`- The IDO contract
+### 3. `DemoIdo.sol`- The IDO contract
 
 The DemoIdo contract is a simulation for an Initial Dex Offering based on the WealthWarriors NFT collection. It uses the number of NFTs held by a wallet, and the rarity of each NFT to calculate the total allocation that a user can invest.
 
@@ -103,7 +103,7 @@ The DemoIdo contract is a simulation for an Initial Dex Offering based on the We
 
 - I didn't want to import all the code of the original contract because using an interface is more gas efficient, improves modularity, and interoperability for future developments
 
-### 5. Dummy ERC20 Token - `ToTheMoonToken.s.sol`
+### 5. Dummy ERC20 Token - `ToTheMoonToken.sol`
 
 A demo ERC20 token, that checks the amounts invested by users during the IDO phase, and distributes tokens accordingly.
 
