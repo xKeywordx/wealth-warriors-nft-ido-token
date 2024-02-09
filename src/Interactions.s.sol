@@ -4,7 +4,7 @@ pragma solidity 0.8.20;
 
 import {Script, console} from "../lib/forge-std/src/Script.sol";
 import {DevOpsTools} from "../lib/foundry-devops/src/DevOpsTools.sol";
-import {WealthWarriors} from "./WealthWarriors.s.sol";
+import {WealthWarriors} from "./WealthWarriors.sol";
 
 contract MintWealthWarriors is Script {
     function run() external {
