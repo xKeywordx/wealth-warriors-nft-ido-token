@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import {IDemoIdo} from "./interface/IDemoIdo.s.sol";
+import {IDemoIdo} from "./interface/IDemoIdo.sol";
 
 contract ToTheMoonToken is ERC20, Ownable {
     uint256 public constant TOTAL_SUPPLY = 1e9 * 1e18; // 1 billion tokens with 18 decimals
