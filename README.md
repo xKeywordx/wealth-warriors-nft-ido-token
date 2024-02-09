@@ -1,4 +1,4 @@
-# This repo contains 3 main contracts. one NFT Collection, one Demo IDO, and one dummy ERC20 Token.
+# This repo contains 3 main contracts. One NFT Collection, one Demo IDO, and one dummy ERC20 Token.
 
 # Repository Overview
 
