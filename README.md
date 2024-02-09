@@ -8,7 +8,7 @@ In brief, the NFT collection is the main contract and the core of the ecosystem.
 
 The DemoIdo contract is a crowdsale contract that sets an amount to be raised and sets certain limits in place. The contract will also keep track of the amounts invested by each investor.
 
-The token contract, in my demo example called ToTheMoonToken, is an implementation of an ERC20 token, with additional functionality such as a way to distribute the initial supply based on the amount that each investor put in during the IDO phase, a withdraw function, and a tex mechanism.
+The token contract, in my demo example called ToTheMoonToken, is an implementation of an ERC20 token, with additional functionality such as a way to distribute the initial supply based on the amount that each investor put in during the IDO phase, a withdraw function, and a tax mechanism.
 
 I am also using 2 interfaces in order to tie things together.
 
