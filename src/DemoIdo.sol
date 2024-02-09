@@ -4,7 +4,7 @@ pragma solidity 0.8.20;
 
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {ReentrancyGuard} from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import {IWealthWarriors} from "./interface/IWealthWarriors.s.sol";
+import {IWealthWarriors} from "./interface/IWealthWarriors.sol";
 
 contract DemoIdo is Ownable, ReentrancyGuard {
     error DemoIdo__WithdrawalFailed();
